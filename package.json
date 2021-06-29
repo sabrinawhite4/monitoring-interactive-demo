@@ -8,6 +8,7 @@
     "gradient": "^0.2.0",
     "gradient-string": "^1.2.0",
     "init": "^0.1.2",
+    "rollbar": "^2.23.0",
     "string": "^3.3.3"
   },
   "devDependencies": {},
