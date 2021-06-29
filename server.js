@@ -13,4 +13,4 @@ app.get('/', (req, res) => {
 
 
 const port = process.env.PORT || 4545;
-app.listen(port, () => {console.log(gradient.instagram(`Server jamming on ${port}`))});
+app.listen(port, () => {console.log(gradient.instagram(`Server jamming on ${port}`))}); 
