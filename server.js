@@ -14,6 +14,8 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     rollbar.log('Hello world!')
+
+    rollbar.error('User tried to access incorrect path')
     res.sendFile(path.join(__dirname, '/public/index.html'))
 })
 
