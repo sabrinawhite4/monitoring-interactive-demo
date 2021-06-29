@@ -1,0 +1,21 @@
+{
+  "name": "monitoring-interactive-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gradient": "^0.2.0",
+    "gradient-string": "^1.2.0",
+    "init": "^0.1.2",
+    "string": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
